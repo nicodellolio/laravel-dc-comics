@@ -3,4 +3,26 @@
 body{
     background-color: #333;
     color: white;
+    background-image: url(https://images2.alphacoders.com/131/1310578.jpg);
+    background-blend-mode: multiply;
 }
+
+.create{
+    a{
+        font-size: 3rem;
+        font-weight: 700;
+        padding: 1rem 2rem;
+    }
+}
+
+.home-title{
+    color: orangered;
+    font-weight: 900;
+    font-size: 4rem;
+}
+.to-the-comics{
+    font-weight: 700;
+    font-size: 3rem;
+    margin-top: 15%;
+}
+

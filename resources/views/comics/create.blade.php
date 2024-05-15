@@ -2,7 +2,7 @@
 
 @section('content')
 
-    <div class="container w-50">
+    <div class="container w-75 pt-5 fs-3">
 
         <h1 class="text-warning mb-3">Add a new Comic</h1>
 
