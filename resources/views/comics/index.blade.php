@@ -1,7 +1,7 @@
 @extends ('layouts.app')
 
 @section('content')
-    <div class="back w-75 mx-auto d-flex justify-content-between mt-5 create">
+    <div class="back w-75 mx-auto d-flex justify-content-between mt-5 px-3 create">
         <a class="btn btn-warning rounded-3 fw-light btn-sm link-to-create" href="/" role="button">
             <i class="fa fa-home" aria-hidden="true"></i>
         </a>
@@ -19,7 +19,7 @@
 
                     <a class="text-decoration-none" href="{{ route('comics.show', $comic) }}">
 
-                        <div class="card bg-secondary my_card h-100">
+                        <div class="card bg-secondary my_card h-100 d-flex flex-column justify-content-between">
                             <img class="card-img-top my_img" src="{{ $comic['thumb'] }}" alt="">
                             <div class="card-body text-light fs-3 text fw-bold fst-italic">
                                 {{ $comic['title'] }}
