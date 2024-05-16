@@ -3,7 +3,7 @@
 @section('content')
 
 
-    <div class="single_comic_container container-fluid">
+    <div class="single_comic_container container-fluid mt-5">
         <div class="row row_single row-cols-1 row-cols-sm-2 gy-3 w-75 mx-auto">
             <div class="col p-2">
                 <div class="card bg-secondary card_single h-100">
@@ -24,7 +24,7 @@
                             {{ $comic['description'] }}
                         </div>
                     </div>
-                    <div class="card-footer text-end fw-bolder text-dark bg-info fs-4">
+                    <div class="card-footer text-end fw-bolder text-dark bg-dark fs-4">
                         <span class="bg-warning px-3 rounded fs-1 text-center">
                             {{ $comic['price'] }}
                         </span>
