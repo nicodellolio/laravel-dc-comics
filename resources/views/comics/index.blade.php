@@ -26,10 +26,20 @@
                     <div class="card-body text-light fs-3 text fw-bold fst-italic">
                         {{$comic['title']}}
                     </div>
-                    <div class="card-footer text-end fw-bolder text-success bg-light fs-4">
-                        
-                        {{$comic['price']}}
+                    
+                    <div class="card-footer bg-dark d-flex justify-content-between fs-4">
+
+                        <div class="edit-delete flex-fill">
+                            <a href="{{route('comics.edit', $comic)}}"><i class="fa fa-pencil fs-2 me-2" aria-hidden="true"></i></a>
+                            <a href="#"><i class="fa fa-trash fs-2 text-primary p-1" aria-hidden="true"></i></a>
+                        </div>
+
+                        <div class="price-tag fw-bolder text-success">
+                            {{$comic['price']}}
+                        </div>
+
                     </div>
+
                 </div>
 
             </a>

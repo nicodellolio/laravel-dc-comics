@@ -28,7 +28,7 @@
                 </div>
 
                 <div class="edit_img ms-5 mt-5">
-                    <img src="{{ $comic['thumb'] }}" alt="">
+                    <img height="350" src="{{ $comic['thumb'] }}" alt="">
                     <h4 class="mt-2 text-light fw-light bg-info rounded text-center">Current thumb</h4>
                 </div>
 
@@ -71,14 +71,14 @@
 
             </div>
 
-            <button type="submit" class="btn btn-warning text-secondary mt-3 fs-4">Submit</button>
+            <button type="submit" class="btn btn-warning text-secondary mt-3 fs-4">Update</button>
 
         </form>
 
         <div class="back mx-auto text-end">
             <a class="btn btn-warning border border-dark fs-4" href="{{ route('comics.index') }}"
                 role="button">
-                Go back
+                Cancel
             </a>
         </div>
 

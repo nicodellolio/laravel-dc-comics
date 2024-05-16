@@ -68,7 +68,10 @@ class ComicController extends Controller
      */
     public function update(Request $request, Comic $comic)
     {
-        //
+        $comic->update($request->all());
+        
+        return to_route('comics.show', $comic);
+
     }
 
     /**
@@ -76,6 +79,8 @@ class ComicController extends Controller
      */
     public function destroy(Comic $comic)
     {
-        //
+        $comic->delete();
+
+        return to_route('comics.index');
     }
 }
