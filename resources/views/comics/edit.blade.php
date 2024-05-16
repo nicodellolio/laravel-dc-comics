@@ -37,36 +37,36 @@
 
             <div class="mb-3 ">
                 <label class="form" for="thumb">Image Address</label>
-                <input type="text" class="form-control" name="thumb" id="thumb" aria-describedby="titleHelp"
-                    value="https://" value="{{ $comic['thumb'] }}">
+                <input type="text" class="form-control" name="thumb" id="thumb" placeholder="" aria-describedby="titleHelp"
+                 value="{{ $comic['thumb'] }}">
                 <small class="form-text fs-6 text-light">Compile it to change the image of your comic</small>
             </div>
 
             <div class="mb-3 ">
                 <label class="form" for="price">Price</label>
                 <input type="text" class="form-control" name="price" placeholder="$" id="price"
-                    aria-describedby="titleHelp" {{ $comic['price'] }}>
+                    aria-describedby="titleHelp" value="{{ $comic['price'] }}"">
                 <small class="form-text fs-6 text-light">Compile it to change the price of your comic</small>
             </div>
 
             <div class="mb-3 ">
                 <label class="form" for="series">Series</label>
                 <input type="text" class="form-control" name="series" id="series" aria-describedby="titleHelp"
-                    placeholder="Action Comics" {{ $comic['series'] }}>
+                    placeholder="Action Comics" value="{{ $comic['series'] }}"">
                 <small class="form-text fs-6 text-light">Compile it to change the series of your comic</small>
             </div>
 
             <div class="mb-3 ">
                 <label class="form" for="sale_date">Sale Date</label>
                 <input type="text" class="form-control" name="sale_date" id="sale_date" aria-describedby="titleHelp"
-                    placeholder="2024-05-05" {{ $comic['sales_date'] }}>
+                    placeholder="Action Comics" value="{{ $comic['sale_date'] }}"">
                 <small class="form-text fs-6 text-light">Compile it to change the sale date of your comic</small>
             </div>
 
             <div class="mb-3 ">
                 <label class="form" for="type">Type</label>
                 <input type="text" class="form-control" name="type" id="type" aria-describedby="titleHelp"
-                    placeholder="Comic Book" {{ $comic['type'] }}>
+                    placeholder="Comic Book" value="{{ $comic['type'] }}"">
                 <small class="form-text fs-6 text-light">Compile it to change the type of your comic</small>
 
             </div>
