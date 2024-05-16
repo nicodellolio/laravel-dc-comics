@@ -45,14 +45,14 @@
             <div class="mb-3 ">
                 <label class="form" for="price">Price</label>
                 <input type="text" class="form-control" name="price" placeholder="$" id="price"
-                    aria-describedby="titleHelp" value="{{ $comic['price'] }}"">
+                    aria-describedby="titleHelp" value="{{ $comic['price'] }}">
                 <small class="form-text fs-6 text-light">Compile it to change the price of your comic</small>
             </div>
 
             <div class="mb-3 ">
                 <label class="form" for="series">Series</label>
                 <input type="text" class="form-control" name="series" id="series" aria-describedby="titleHelp"
-                    placeholder="Action Comics" value="{{ $comic['series'] }}"">
+                    placeholder="Action Comics" value="{{ $comic['series'] }}">
                 <small class="form-text fs-6 text-light">Compile it to change the series of your comic</small>
             </div>
 

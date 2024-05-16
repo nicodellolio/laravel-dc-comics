@@ -26,7 +26,7 @@
     
             <div class="mb-3 ">
                 <label class="form" for="price">Price</label>
-                <input type="text" class="form-control" name="price" id="price" aria-describedby="titleHelp" placeholder="$">
+                <input type="text" class="form-control" name="price" id="price" aria-describedby="titleHelp" value="$">
             </div>
     
             <div class="mb-3 ">
