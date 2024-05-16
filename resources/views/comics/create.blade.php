@@ -26,7 +26,7 @@
     
             <div class="mb-3 ">
                 <label class="form" for="price">Price</label>
-                <input type="text" value="$" class="form-control" name="price" id="price" aria-describedby="titleHelp">
+                <input type="text" class="form-control" name="price" id="price" aria-describedby="titleHelp" placeholder="$">
             </div>
     
             <div class="mb-3 ">
@@ -44,9 +44,14 @@
                 <input type="text" class="form-control" name="type" id="type" aria-describedby="titleHelp" placeholder="Comic Book">
             </div>
     
-            <button type="submit" class="btn btn-warning text-secondary mt-3">Submit</button>
+            <button type="submit" class="btn btn-warning text-secondary mt-3 fs-4">Submit</button>
         </form>
 
+    </div>
+    <div class="back w-75 mx-auto mt-1 text-end">
+        <a class="btn btn-warning rounded-3 fw-light btn-sm fs-2 px-3 py-1" href="{{route('comics.index')}}" role="button">
+            Go back
+        </a>
     </div>
 
 @endsection

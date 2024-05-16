@@ -3,14 +3,18 @@
 
 @section('content')
 
-<div class="back w-75 mx-auto text-end mt-5 create">
+<div class="back w-75 mx-auto d-flex justify-content-between mt-5 create">
+    <a class="btn btn-warning rounded-3 fw-light btn-sm link-to-create" href="/" role="button">
+        <i class="fa fa-home" aria-hidden="true"></i>
+    </a>
     <a class="btn btn-warning rounded-3 fw-light btn-sm link-to-create" href="{{route('comics.create')}}" role="button">
         +
     </a>
 </div>
+
     
 <div class="comics_collection_grid container-fluid mt-5">
-    <div class="row row-cols-3 row-cols-xxl-4 gy-3 w-75 mx-auto">
+    <div class="row row-cols-1 row-cols-sm-2 row-cols-xl-3 row-cols-xxl-4 gy-3 w-75 mx-auto">
 
         @foreach ($comics as $index => $comic)
         <div class="col p-2">
