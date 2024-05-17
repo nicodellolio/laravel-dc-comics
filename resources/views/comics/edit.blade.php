@@ -1,5 +1,9 @@
 @extends('layouts.app')
 
+@section('title')
+Edit the "{{ $comic['series'] }}" record
+@endsection
+
 @section('content')
     <div class="container w-75 pt-5 fs-3 pb-5">
 

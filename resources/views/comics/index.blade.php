@@ -1,5 +1,9 @@
 @extends ('layouts.app')
 
+@section('title')
+Best Seller Comics
+@endsection
+
 @section('content')
     <div class="back w-75 mx-auto d-flex justify-content-between mt-5 px-3 create">
         <a class="btn btn-warning rounded-3 fw-light btn-sm link-to-create" href="/" role="button">
@@ -29,7 +33,7 @@
 
                                 <div class="edit-delete flex-fill">
                                     <a class="text-decoration-none" href="{{ route('comics.edit', $comic) }}">
-                                        <i class="fa fa-pencil fs-2 py-2 px-1  rounded-2" aria-hidden="true"></i>
+                                        <i class="fa fa-pencil fs-2 py-2 px-1 rounded-2" aria-hidden="true"></i>
                                     </a>
 
                                     <!-- Modal trigger button -->

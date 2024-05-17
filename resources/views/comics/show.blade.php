@@ -1,5 +1,9 @@
 @extends ('layouts.app')
 
+@section('title')
+"{{ $comic['series'] }}"" view
+@endsection
+
 @section('content')
 
 

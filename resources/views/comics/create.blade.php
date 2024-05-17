@@ -1,5 +1,9 @@
 @extends('layouts.app')
 
+@section('title')
+Create your own comic
+@endsection
+
 @section('content')
 
     <div class="container w-75 pt-5 fs-3">
